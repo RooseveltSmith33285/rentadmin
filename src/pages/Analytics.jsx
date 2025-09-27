@@ -302,11 +302,11 @@ const Analytics = () => {
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
             <div className="flex items-center justify-between mb-4">
               <BarChart3 className="h-8 w-8 text-purple-500" />
-              <span className={`text-sm font-medium ${dashboardData.stats.churnRate < 5 ? 'text-green-600' : 'text-red-600'}`}>
-                {dashboardData.stats.churnRate < 5 ? '-2.5%' : `+${dashboardData.stats.churnRate.toFixed(1)}%`}
+              <span className={`text-sm font-medium 'text-green-600' `}>
+                +0
               </span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900">{dashboardData.stats.churnRate.toFixed(1)}%</h3>
+            <h3 className="text-2xl font-bold text-gray-900">0%</h3>
             <p className="text-gray-600">Churn Rate</p>
           </div>
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
